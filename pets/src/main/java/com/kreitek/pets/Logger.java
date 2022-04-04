@@ -22,6 +22,7 @@ public class Logger {
 
     public void debug(String logText){
         counter++;
+
         System.out.println("[debug] ["+counter+"] - "+logText);
     }
 }
